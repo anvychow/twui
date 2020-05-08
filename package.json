@@ -1,0 +1,28 @@
+{
+  "name": "tw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "postcss css/tailwind.css -o public/assets/css/styles.css && live-server public",
+    "watch": "postcss css/tailwind.css -o public/assets/css/styles.css --watch",
+    "build": "postcss css/tailwind.css -o public/assets/css/styles.css && live-server public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anvychow/tw.git"
+  },
+  "keywords": [],
+  "author": "Anvesh G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anvychow/tw/issues"
+  },
+  "homepage": "https://github.com/anvychow/tw#readme",
+  "dependencies": {
+    "@tailwindcss/ui": "^0.3.0",
+    "autoprefixer": "^9.7.6",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.5"
+  }
+}
